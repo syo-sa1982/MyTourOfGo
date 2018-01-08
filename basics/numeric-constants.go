@@ -17,4 +17,6 @@ func main() {
 	fmt.Println(needInt(Small))
 	fmt.Println(needFloat(Small))
 	fmt.Println(needFloat(Big))
+	// そのまま出力しようとすると桁あふれでエラー起こす
+	//fmt.Println(Big)
 }
