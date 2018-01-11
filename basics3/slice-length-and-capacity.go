@@ -9,7 +9,23 @@ func main() {
 	s = s[:0]
 	printSlices(s)
 
+	s = s[:5]
+	printSlices(s)
+
 	s = s[:4]
+	printSlices(s)
+
+	s = s[:6] // 容量が6以内なら代入できる
+	printSlices(s)
+
+	// 容量超えるとエラー
+	//s = s[:7]
+	//printSlices(s)
+
+	s = s[2:]
+	printSlices(s)
+
+	s = s[1:]
 	printSlices(s)
 
 	s = s[2:]
