@@ -30,6 +30,13 @@ func main() {
 
 	s = s[2:]
 	printSlices(s)
+
+	// nil slices
+	var s0 []int
+	printSlices(s0)
+	if s0 == nil {
+		fmt.Println("nil!")
+	}
 }
 
 func printSlices(s []int) {
