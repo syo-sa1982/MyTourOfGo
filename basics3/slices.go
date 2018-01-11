@@ -47,4 +47,8 @@ func main() {
 		{13, true},
 	}
 	fmt.Println(s)
+
+
+	// Slice length and capacity
+	s3 := []int{2, 3, 5, 7, 11, 13}
 }
