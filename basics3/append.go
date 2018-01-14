@@ -5,6 +5,18 @@ import "fmt"
 func main() {
 	var s []int
 	printSlice2(s)
+
+	s = append(s ,0)
+	printSlice2(s)
+
+	s = append(s ,1)
+	printSlice2(s)
+
+	s = append(s ,2)
+	printSlice2(s)
+
+	s = append(s ,3, 4, 5)
+	printSlice2(s)
 }
 
 func printSlice2(s []int) {
