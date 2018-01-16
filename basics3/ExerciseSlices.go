@@ -11,7 +11,7 @@ func Pic(dx, dy int) [][]uint8 {
 
 	for y := 0; y < dy; y++ {
 		for x := 0; x < dx; x++ {
-			image[y][x] = uint8(x*y)
+			image[y][x] = uint8(x + y)/2
 		}
 	}
 
